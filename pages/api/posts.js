@@ -6,6 +6,7 @@ export default (req, res) => {
     .push({
       title: loremIpsum({ count: 3, units: "words" }),
       content: loremIpsum({ count: 5 }),
+      date: new Date().toLocaleString(),
     })
     .write();
 
