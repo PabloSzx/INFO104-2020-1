@@ -11,6 +11,7 @@
     "visualstudioexptteam.vscodeintellicode",
     "vscode-icons-team.vscode-icons",
     "jpoissonnier.vscode-styled-components",
-    "zhuangtongfa.material-theme"
+    "zhuangtongfa.material-theme",
+    "hediet.vscode-drawio"
   ]
 }
