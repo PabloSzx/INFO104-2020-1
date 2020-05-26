@@ -1,11 +1,10 @@
 import { css } from "@emotion/react";
 import { useState } from "react";
-import { db } from "../src/api/db";
 
-export const getServerSideProps = () => {
+export const getServerSideProps = async () => {
   return {
     props: {
-      posts: db.get("posts").value(),
+      posts: [],
     },
   };
 };
