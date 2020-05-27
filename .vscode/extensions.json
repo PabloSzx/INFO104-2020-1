@@ -12,6 +12,9 @@
     "vscode-icons-team.vscode-icons",
     "jpoissonnier.vscode-styled-components",
     "zhuangtongfa.material-theme",
-    "hediet.vscode-drawio"
+    "hediet.vscode-drawio",
+    "joelday.docthis",
+    "lihui.vs-color-picker",
+    "mikestead.dotenv"
   ]
 }
