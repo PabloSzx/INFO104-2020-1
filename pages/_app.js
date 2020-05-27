@@ -15,6 +15,14 @@ export const globalStyles = (
         font-family: "Lato", sans-serif;
         font-size: 24px;
       }
+
+      button {
+        font-family: "Lato", sans-serif;
+        cursor: pointer;
+        :disabled {
+          cursor: not-allowed;
+        }
+      }
     `}
   />
 );

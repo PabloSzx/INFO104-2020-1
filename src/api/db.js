@@ -1,9 +1,10 @@
 import knex from "knex";
+import * as knexfile from "../../knexfile";
 
-export const db = knex(require("../../knexfile")[process.env.NODE_ENV]);
+export const db = knex(knexfile[process.env.NODE_ENV]);
 
 // Cambiar "remake" a "true" para borrar las tablas y crearlas denuevo.
-// Util cuando se hace una modificación a las tablas
+// Util cuando se hacen modificaciones en las tablas.
 const remake = false;
 if (remake) {
   db.migrate
