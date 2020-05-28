@@ -230,7 +230,7 @@ const OresResponse = ({ answer }) => {
 };
 
 const Home = ({ courses }) => {
-  const [answer, setAnswer] = useState(false);
+  const [answer, setAnswer] = useState(null);
 
   return (
     <div
